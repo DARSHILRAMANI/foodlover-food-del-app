@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    color: white; /* Text color for better visibility */
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Spacing between logo and text */
+}
+
+.navbar .logo {
+    width: max(10%, 80px);
+}
+
+.navbar p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: red; /* Eye-catching color */
+    text-transform: uppercase; /* Makes the text look formal */
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar p:hover {
+    color: #21a1f1; /* Lighter hover effect */
+}
+
+.navbar .profile {
+    width: 40px;
+    border-radius: 50%; /* Makes the profile image circular */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar .profile:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
